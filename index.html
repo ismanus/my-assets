@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Handy Liu | Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .font-huge { letter-spacing: -0.05em; line-height: 0.8; }
+    </style>
+</head>
+<body class="bg-white text-black antialiased selection:bg-black selection:text-white">
+
+   <nav id="main-nav" class="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-full max-w-[1512px] px-6 md:px-8 transition-all duration-500 ease-in-out">
+    
+    <div class="mx-auto flex items-center justify-end md:justify-between gap-4 md:px-6 md:py-3 md:bg-[#F2F2F2]/90 md:backdrop-blur-md md:rounded-full md:border md:border-gray-100 md:shadow-lg transition-all duration-500">
+        
+        <div class="hidden md:flex items-center gap-8">
+            <div class="w-3 h-3 bg-[#4ADE80] rounded-sm shrink-0"></div>
+            <div class="flex items-center gap-6 text-sm font-medium text-gray-600">
+                <a href="#projects" class="hover:text-black transition-colors">项目</a>
+                <a href="#about" class="hover:text-black transition-colors">关于</a>
+                <a href="#experience" class="hover:text-black transition-colors">经历</a>
+            </div>
+        </div>
+
+        <a href="mailto:manuslxc@gmail.com" class="
+            /* 手机端样式 */
+            w-12 h-12 flex items-center justify-center bg-black text-white rounded-full shadow-2xl
+            /* 桌面端恢复长条样式 */
+            md:w-auto md:h-auto md:px-5 md:py-2 md:text-sm md:rounded-full md:font-medium
+            hover:scale-110 md:hover:scale-100 md:hover:opacity-80 transition-all duration-300
+        ">
+            <span class="md:hidden">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+            </span>
+            <span class="hidden md:inline">联系我</span>
+        </a>
+    </div>
+</nav>
+
+    <div class="max-w-[1440px] mx-auto">
+
+        <header class="min-h-screen flex flex-col justify-end px-8 pb-12 lg:px-16 lg:pb-20">
+            <div class="max-w-3xl mb-12">
+                <h2 class="text-2xl md:text-3xl font-medium leading-snug tracking-tight text-gray-900">
+                    你好！很高兴你来访问我的UI/UX、Web、SaaS和品牌设计作品集，或许我会成为你值得信赖的设计伙伴。
+                </h2>
+            </div>
+            <div class="w-full">
+                <h1 class="font-huge text-[15vw] md:text-[16vw] uppercase font-black flex justify-between items-end">
+                    <span>HANDY</span>
+                    <span>LIU</span>
+                </h1>
+            </div>
+        </header>
+
+        <section id="projects" class="px-8 lg:px-16 py-24">
+            <div class="flex items-center gap-2 mb-12">
+                <div class="w-1.5 h-1.5 bg-black rounded-full"></div>
+                <span class="text-lg font-bold">我的项目</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
+    
+        <a href="project-1.html" class="group block cursor-pointer">
+        <div class="aspect-video w-full rounded-[1.5rem] overflow-hidden bg-gray-100 shadow-sm transition-all duration-500">
+            <img 
+                src="https://cdn.jsdelivr.net/gh/ismanus/my-assets/project-1-card.png" 
+                alt="YOUOWN" 
+                class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                loading="lazy"
+            >
+        </div>
+        
+        <div class="mt-6">
+            <h3 class="text-2xl font-bold text-black mb-1">YOUOWN</h3>
+            <p class="text-gray-400 text-sm tracking-wide">UI, UX, APP</p>
+        </div>
+    </a>
+
+            <a href="project-2.html" class="group block cursor-pointer">
+        <div class="aspect-video w-full rounded-[1.5rem] overflow-hidden bg-gray-100 shadow-sm transition-all duration-500">
+            <img 
+                src="https://cdn.jsdelivr.net/gh/ismanus/my-assets/project-2-card.png" 
+                alt="YOUOWN" 
+                class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                loading="lazy"
+            >
+        </div>
+        
+        <div class="mt-6">
+            <h3 class="text-2xl font-bold text-black mb-1">不正经制造</h3>
+            <p class="text-gray-400 text-sm tracking-wide">UI, UX, WEB</p>
+        </div>
+    </a>
+
+                <a href="project-2.html" class="group block cursor-pointer">
+        <div class="aspect-video w-full rounded-[1.5rem] overflow-hidden bg-gray-100 shadow-sm transition-all duration-500">
+            <img 
+                src="https://cdn.jsdelivr.net/gh/ismanus/my-assets/project-2-card.png" 
+                alt="YOUOWN" 
+                class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                loading="lazy"
+            >
+        </div>
+        
+        <div class="mt-6">
+            <h3 class="text-2xl font-bold text-black mb-1">不正经制造</h3>
+            <p class="text-gray-400 text-sm tracking-wide">UI, UX, WEB</p>
+        </div>
+    </a>
+
+                <a href="project-2.html" class="group block cursor-pointer">
+        <div class="aspect-video w-full rounded-[1.5rem] overflow-hidden bg-gray-100 shadow-sm transition-all duration-500">
+            <img 
+                src="https://cdn.jsdelivr.net/gh/ismanus/my-assets/project-2-card.png" 
+                alt="YOUOWN" 
+                class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                loading="lazy"
+            >
+        </div>
+        
+        <div class="mt-6">
+            <h3 class="text-2xl font-bold text-black mb-1">不正经制造</h3>
+            <p class="text-gray-400 text-sm tracking-wide">UI, UX, WEB</p>
+        </div>
+    </a>
+
+    </div>
+    
+
+        </section>
+
+        <section id="about" class="px-8 lg:px-16 py-24">
+    <div class="flex items-center gap-2 mb-12">
+        <div class="w-1.5 h-1.5 bg-black rounded-full"></div>
+        <span class="text-lg font-bold">关于我</span>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        
+        <div class="lg:col-span-1 bg-[#F5F5F5] rounded-[2.5rem] p-10 flex flex-col justify-end min-h-[500px]">
+            <p class="text-gray-500 leading-relaxed text-lg">
+                5年+互联网C端B端项目UI/UX设计经验。有优秀的审美和视觉表现力，精通主流设计工具，对AI工具和优秀设计方法保持探索欲。有产品体验和前端代码思维，数据分析及业务理解能力。
+            </p>
+        </div>
+
+        <div class="lg:col-span-2 bg-[#F5F5F5] rounded-[2.5rem] p-10 min-h-[500px] relative overflow-hidden flex items-center justify-center">
+            <div class="relative w-full h-full">
+                <div class="absolute top-[15%] left-[15%] w-56 aspect-[3/4] bg-white p-4 shadow-2xl rounded-sm rotate-[-4deg] transition-transform hover:rotate-0 hover:z-10 duration-500">
+                    <div class="w-full h-[85%] bg-[#00AAFF]"></div>
+                </div>
+                <div class="absolute top-[10%] right-[20%] w-60 aspect-[3/4] bg-white p-4 shadow-2xl rounded-sm rotate-[6deg] transition-transform hover:rotate-0 hover:z-10 duration-500">
+                    <div class="w-full h-[85%] bg-[#00AAFF]"></div>
+                </div>
+                <div class="absolute bottom-[10%] left-[35%] w-52 aspect-[3/4] bg-white p-4 shadow-2xl rounded-sm rotate-[-2deg] transition-transform hover:rotate-0 hover:z-10 duration-500">
+                    <div class="w-full h-[85%] bg-[#00AAFF]"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <section id="experience" class="px-8 lg:px-16 py-24">
+            <div class="flex items-center gap-2 mb-12">
+                <div class="w-1.5 h-1.5 bg-black rounded-full"></div>
+                <span class="text-lg font-bold">经历</span>
+            </div>
+            <div class="w-full aspect-video bg-[#00AAFF] rounded-[2.5rem] overflow-hidden"></div>
+        </section>
+
+        <section class="min-h-[80vh] flex flex-col items-center justify-center text-center px-8">
+            <h2 class="text-[8vw] md:text-[6vw] font-black leading-none uppercase mb-12 tracking-tighter">
+                LET'S BUILD<br/>SOMETHING GREAT
+            </h2>
+            <a href="mailto:manuslxc@gmail.com" class="px-10 py-4 bg-black text-white text-xl rounded-full font-medium hover:scale-105 transition-transform duration-300">
+                开始
+            </a>
+        </section>
+
+        <footer class="px-8 pb-12">
+            <div class="bg-[#F5F5F5] rounded-[2rem] p-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center gap-3">
+                    <div class="w-3 h-3 bg-[#4ADE80] rounded-sm"></div>
+                    <a href="mailto:manuslxc@gmail.com" class="text-gray-600 font-medium hover:text-black transition-colors">
+                        manuslxc@gmail.com
+                    </a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <a href="mailto:manuslxc@gmail.com" class="w-10 h-10 bg-[#4ADE80] rounded-lg flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </a>
+                    <div class="w-10 h-10 bg-[#4ADE80] rounded-lg"></div>
+                    <div class="w-10 h-10 bg-[#4ADE80] rounded-lg"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const nav = document.getElementById('main-nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.style.maxWidth = '600px';
+            } else {
+                nav.style.maxWidth = '1312px';
+            }
+        });
+    </script>
+</body>
+</html>
